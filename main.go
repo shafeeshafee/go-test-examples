@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"go-with-tests/hello"
 	"go-with-tests/integers"
+	"go-with-tests/iteration"
 )
 
 func main() {
@@ -12,4 +13,7 @@ func main() {
 
 	// example 2: integers
 	fmt.Println(integers.Add(2, 5))
+
+	// example 3: iteration
+	fmt.Println(iteration.Repeat("u", 10))
 }
