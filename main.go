@@ -7,6 +7,8 @@ import (
 	"go-with-tests/iteration"
 )
 
+// TESTING
+
 func main() {
 	// example 1: hello-world
 	fmt.Println(hello.Hello("Shafee", "Spanish"))
